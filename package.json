@@ -6,9 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "email:dev": "email dev -d ./src/emails -p 3001"
   },
   "dependencies": {
+    "@react-email/button": "0.0.9",
+    "@react-email/html": "0.0.4",
     "@types/node": "20.3.1",
     "@types/react": "18.2.12",
     "@types/react-dom": "18.2.5",
@@ -19,6 +22,8 @@
     "postcss": "8.4.24",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-email": "1.9.4",
+    "resend": "^0.15.3",
     "tailwindcss": "3.3.2",
     "typescript": "5.1.3"
   }
